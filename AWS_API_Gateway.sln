@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWS_API_Gateway", "src\AWS_API_Gateway\AWS_API_Gateway.csproj", "{BAE6FFF4-AA19-434A-96D7-83322ABBD778}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWS_API_Gateway.Tests", "test\AWS_API_Gateway.Tests\AWS_API_Gateway.Tests.csproj", "{11E6798E-2B8D-4C5E-974B-96651D76DCCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAE6FFF4-AA19-434A-96D7-83322ABBD778}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAE6FFF4-AA19-434A-96D7-83322ABBD778}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAE6FFF4-AA19-434A-96D7-83322ABBD778}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAE6FFF4-AA19-434A-96D7-83322ABBD778}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11E6798E-2B8D-4C5E-974B-96651D76DCCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11E6798E-2B8D-4C5E-974B-96651D76DCCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11E6798E-2B8D-4C5E-974B-96651D76DCCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11E6798E-2B8D-4C5E-974B-96651D76DCCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B0F4F03-39F5-4F6A-81A2-A560203AE496}
+	EndGlobalSection
+EndGlobal
